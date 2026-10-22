@@ -27,3 +27,15 @@
 .bg-gray {
     background-color: #121212;
 }
+
+.rounded {
+    border-radius: 5px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
