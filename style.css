@@ -7,10 +7,10 @@
 }
 
 
-/* body{
+body{
     background-color: black;
     color: white;
-} */
+}
 
 .left {
     width: 25vw;
@@ -20,8 +20,6 @@
 .right {
     width: 75vw;
 }
-
-
 
 .home ul li{
     display: flex;
@@ -50,5 +48,30 @@
 .footer {
     display: flex;
     font-size: 10px;
+    gap: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.library {
+    min-height: 79.3vh;
+    position: relative;
+}
+
+.footer a{
     color: grey;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header > *{
+    padding: 20px;
+}
+
+.right {
+    margin: 10px 0;
 }
