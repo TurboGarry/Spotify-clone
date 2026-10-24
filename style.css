@@ -93,6 +93,7 @@ body{
     padding: 10px;
     border-radius: 5px;
     background-color: #252525;
+    position: relative;
 }
 
 .card > *{
@@ -100,4 +101,10 @@ body{
 }
 .card img{
     width: 100%
+}
+
+.play{
+    position: absolute;
+    top: 155px;
+    right: 16px;
 }
