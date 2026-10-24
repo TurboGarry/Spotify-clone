@@ -87,6 +87,8 @@ body{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    overflow-y: scroll;
+    max-height: 80vh;
 }
 
 .card {
