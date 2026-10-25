@@ -75,6 +75,7 @@ body {
 
 .right {
   margin: 10px 0;
+  position: relative;
 }
 
 .spotifyPlaylist {
@@ -145,4 +146,12 @@ body {
 .loginbtn:hover {
     font-weight: bold;
     font-size: 17px;
+}
+
+.playbar {
+  position: absolute;
+  bottom: 0;
+  background-color: green;
+  width: 96%;
+  padding: 12px;
 }
