@@ -155,3 +155,9 @@ body {
   width: 96%;
   padding: 12px;
 }
+
+.songbuttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
